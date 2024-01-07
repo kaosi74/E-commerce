@@ -13,11 +13,11 @@ import image12 from "../src/assets/1 (12).jpg";
 import image13 from "../src/assets/1 (13).jpg";
 import image14 from "../src/assets/1 (14).jpg";
 import image15 from "../src/assets/1 (7).jpg";
-import image16 from "../src/assets/1 (16).jpg";
 import image23 from "../src/assets/1 (30).jpg";
 import image24 from "../src/assets/1 (31).jpg";
 import image25 from "../src/assets/1 (32).jpg";
 import image26 from "../src/assets/1 (33).jpg";
+import image30 from "../src/assets/1 (34).jpg";
 import image27 from "../src/assets/WhatsApp Image.jpg";
 import image28 from "../src/assets/WhatsApp Image 21.jpg";
 import image29 from "../src/assets/WhatsApp Image 20.jpg";
@@ -25,7 +25,7 @@ import image22 from "../src/assets/1-removebg-preview.png";
 
 function App() {
   return (
-    <div className="mb-5">
+    <div className="">
       <div className="container-fluid m-0 p-0">
         <div
           id="carouselExampleAutoplaying"
@@ -74,7 +74,7 @@ function App() {
         <div className="row g-2">
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image1} />
+              <img className="align-self-center mt-1" width={150} src={image1} />
               <div className="card-body">
                 <p className="card-title">Apple Iphone 14 Pro Max</p>
                 <h5>₦1,723,000</h5>
@@ -83,7 +83,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image2} />
+              <img className="align-self-center mt-1" width={150} src={image2} />
               <div className="card-body">
                 <p className="card-title">Ps4 Controllers Pad Wireless</p>
                 <h5>₦12,000</h5>
@@ -92,7 +92,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image3} />
+              <img className="align-self-center mt-1" width={150} src={image3} />
               <div className="card-body">
                 <p className="card-title">Hp 15 VICTUS GAMING, 13TH GEN</p>
                 <h5>₦1,450,000</h5>
@@ -101,7 +101,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image4} />
+              <img className="align-self-center mt-1" width={150} src={image4} />
               <div className="card-body">
                 <p className="card-title">GATWIGA Casual Backpack</p>
                 <h5>₦5,000</h5>
@@ -110,7 +110,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image5} />
+              <img className="align-self-center mt-1" width={150} src={image5} />
               <div className="card-body">
                 <p className="card-title">
                   XIAOMI Redmi Note 12 Pro 6.67&rdquo;
@@ -122,7 +122,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image6} />
+              <img className="align-self-center mt-1" width={150} src={image6} />
               <div className="card-body">
                 <p className="card-title">Hollandia Yoghurt Plain Sweetened</p>
                 <p className="card-title">1Lx10</p>
@@ -132,7 +132,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image7} />
+              <img className="align-self-center mt-1" width={150} src={image7} />
               <div className="card-body">
                 <p className="card-title">
                   Apple IPhone 14 Pro Max 6.7&rdquo; 6GB
@@ -144,7 +144,7 @@ function App() {
           </div>
           <div className="col-6 col-md-3">
             <div className="card h-100 text-center">
-              <img className="align-self-center" width={200} src={image8} />
+              <img className="align-self-center mt-1" width={150} src={image8} />
               <div className="card-body">
                 <p className="card-title">Good Mama 850g</p>
                 <h5>₦1,000</h5>
@@ -154,89 +154,92 @@ function App() {
         </div>
       </div>
 
-      {/* New section */}
-      <div className="container  card my-4 pb-3">
-        <h4 className="h4 ms-2 pt-3 mb-4 fs-3">Popular products</h4>
+      <div className="container card my-5 pb-3">
+        <h4 className="h4 pt-3 mb-3 ms-2 fs-3">Popular products</h4>
         <div className="row g-2">
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image9} />
+              <img className="align-self-center mt-1" width={150} src={image9} />
               <div className="card-body">
-                <p className="card-title">Some title</p>
-                <h5>₦750</h5>
+                <p className="card-title">Waw Detergent 850g</p>
+                <h5>₦1,230</h5>
               </div>
             </div>
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image10} />
+              <img className="align-self-center mt-1" width={150} src={image10} />
               <div className="card-body">
-                <p className="card-title">Some title</p>
-                <h5>₦2,358</h5>
+                <p className="card-title">Hypo Bleach - 1.5 litre</p>
+                <h5>₦4,999</h5>
               </div>
             </div>
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image11} />
+              <img className="align-self-center mt-1" width={150} src={image11} />
               <div className="card-body">
-                <p className="card-title">Some title</p>
-                <h5>₦15,000</h5>
+                <p className="card-title">Big bull Rice 5kg</p>
+                <h5>₦6,000</h5>
               </div>
             </div>
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image12} />
+              <img className="align-self-center mt-1" width={150} src={image12} />
               <div className="card-body">
-                <p className="card-title">Some title</p>
-                <h5>₦24,200</h5>
+                <p className="card-title">Mama&lsquo;s Pride Premium Parboiled</p>
+                <p>Rice 50 KG @ Promo Price Best Rice</p>
+                <h5>₦85,970</h5>
               </div>
             </div>
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image13} />
+              <img className="align-self-center mt-1" width={150} src={image13} />
               <div className="card-body">
-                <p className="card-title">XIAOMI Redmi A2+ 6.71&rdquo;</p>
+                <p className="card-title">
+                  XIAOMI Redmi A2+ 6.71&rdquo;
+                </p>
                 <p className="card-title">RAM/32GB ROM Android 12 - Black</p>
                 <h5>₦66,800</h5>
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3 text-nowrap">
+          <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image14} />
+              <img className="align-self-center mt-1" width={150} src={image14} />
               <div className="card-body">
                 <p className="card-title">XIAOMI Redmi 12 6.7&rdquo; 8GB RAM</p>
-                <p>128GB ROM Android 13 - Midnight Black</p>
+                <p className="card-title">128GB ROM Android 13 - Midnight Black</p>
                 <h5>₦180,000</h5>
               </div>
             </div>
           </div>
           <div className="col-6 col-md-3">
             <div className="card text-center">
-              <img className="align-self-center" width={200} src={image15} />
+              <img className="align-self-center mt-1" width={150} src={image15} />
               <div className="card-body">
-                <p className="card-title">Jik Bleach (Perfumed Stain Remover</p>
-                <p>& Germ Killer) - 950ml</p>
+                <p className="card-title">
+                  Jik Bleach (Perfumed Stain Remover
+                </p>
+                <p className="card-title">& Germ Killer) - 950ml</p>
                 <h5>₦1,780</h5>
               </div>
             </div>
           </div>
           <div className="col-6 col-md-3">
-            <div className="card text-center">
-              <img className="align-self-center" width={200} src={image16} />
+            <div className="card h-100 text-center">
+              <img className="align-self-center mt-1" width={150} src={image30} />
               <div className="card-body">
-                <p className="card-title">Apple IPhone XS Max 256GB Silver,</p>
-                <p>Free Case And Screen Guide</p>
-                <h5>₦375,000</h5>
+                <p className="card-title">Devon King&lsquo;s Pure Vegetable Oil - 5 litres</p>
+                <h5>₦1,000</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+      
       {/* New section */}
       <div className="container bg-white py-2 pe-4">
         <div className="row">
@@ -255,7 +258,7 @@ function App() {
           </div>
           <div className="col-12 col-md-6 p-0">
             <div className="row row-gap-2 cardColumns">
-              <div className="col-6">
+              <div className="col-12">
                 <div className="card">
                   <div className=" mb-2 flx">
                     <img width={100} src={image24} />
@@ -266,7 +269,7 @@ function App() {
                   <p className="ms-4">₦4,990</p>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12">
                 <div className="card">
                   <div className=" mb-2 flx">
                     <img width={100} src={image23} />
@@ -277,7 +280,7 @@ function App() {
                   <p>₦15,000</p>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12">
                 <div className="card">
                   <div className=" mb-2 flx">
                     <img width={100} src={image26} />
@@ -288,7 +291,7 @@ function App() {
                   <p className="ms-4">37,995</p>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12">
                 <div className="card">
                   <div className=" mb-2 flx">
                     <img width={100} src={image25} />
