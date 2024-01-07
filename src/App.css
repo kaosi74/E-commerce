@@ -1,0 +1,13 @@
+body {
+    background-color: #096779;
+}
+.flx {
+    display: flex;
+    column-gap: 5px;
+    margin-inline: 5px;
+    height: 150px;
+}
+
+.sliderImg * img{
+    height: 700px;
+}
